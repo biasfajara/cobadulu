@@ -125,6 +125,39 @@
                 </ul>
 
                 <!-- Head Menu -->
+                <div class="pcoded-navigatio-lavel">Landing Page</div>
+
+                <!-- Menu -->
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="pcoded-hasmenu <?php if ($this->uri->segment(1) === 'menu' ) {
+                                                    echo "pcoded-trigger";
+                                                } ?>">
+                        <a href=" javascript:void(0)">
+                        <span class="pcoded-micon"><i class="ti-folder"></i></span>
+                        <span class="pcoded-mtext">Tampilan</span>
+                        </a>
+                        <!-- Sub Menu -->
+                        <ul class="pcoded-submenu">
+                            <li class=" <?php if ($this->uri->segment(1) === 'menu') {
+                                            echo "active";
+                                        } ?> ">
+                                <a href="<?= base_url('menu'); ?>">
+                                    <span class="pcoded-mtext">Menu</span>
+                                </a>
+                            </li>
+                            <li class=" <?php if ($this->uri->segment(1) === 'section1') {
+                                            echo "active";
+                                        } ?> ">
+                                <a href="<?= base_url('section1'); ?>">
+                                    <span class="pcoded-mtext">Section 1</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <!-- Head Menu -->
                 <div class="pcoded-navigatio-lavel">Data Utama</div>
 
                 <!-- Menu -->

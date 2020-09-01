@@ -164,7 +164,8 @@ h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  display: inline;
+  font-size: 48px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -174,7 +175,8 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #E8C127;
+  display: inline;
 }
 
 #header .logo a span {
@@ -182,7 +184,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------

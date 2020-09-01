@@ -98,7 +98,10 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-md-10">
-                                        <a href="<?= base_url(); ?>home/index">TemanJabar</a>
+                                      <h2 class="logo">
+                                      <img src="<?= base_url();?>/assets/img/favicon.png" alt="logo dbmpr" class="img-fluid" >
+                                        <a style="color: black" href="<?= base_url();?>home/index">Teman Jabar<span>.</span></a>
+                                      </h2> 
                                     </div>
                                     <div class="col-md-2">
                                         <img src="<?= base_url(); ?>assets/template/files/assets/images/auth/Logo-small-bottom.png" alt="small-logo.png">

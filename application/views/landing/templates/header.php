@@ -50,24 +50,7 @@
     * License: https://bootstrapmade.com/license/ -->
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="<?= base_url(); ?>assets/js/javascript.js"></script>
-    <script src="<?= base_url(); ?>assets/js/popper.min.js"></script>
-    <script src="<?= base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <!-- Vendor JS Files -->
-    <script src="<?= base_url();?>/assets/vendor/jquery/jquery.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/php-email-form/validate.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/venobox/venobox.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/counterup/counterup.min.js"></script>
-    <script src="<?= base_url();?>/assets/vendor/aos/aos.js"></script>
 
-    <!-- Template Main JS File -->
-    <script src="<?= base_url();?>/assets/js/main.js"></script>
 
 
 
@@ -79,14 +62,15 @@
 
         <h1 class="logo">
           <img src="<?= base_url();?>/assets/img/favicon.png" alt="logo dbmpr" class="img-fluid" />
-          <a style="color: white" href="<?= base_url();?>">Teman Jabar<span>.</span></a>
+          <a class="logo" style="color: white" href="<?= base_url();?>home/index">Teman Jabar</a>
         </h1>
+
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class=""><a href="<?= base_url();?>">Home</a></li>
+            <li ><a href="<?= base_url();?>home/index">Home</a></li>
             <li class="drop-down"><a href="">Profil</a>
               <ul>
                 <li><a  href="<?= base_url();?>profil/visimisi">Visi dan Misi</a></li>
@@ -144,6 +128,7 @@
               </ul>
             </li>
             <li><a href="<?= base_url();?>profil/kontak">Kontak</a></li>
+            <li><a href="<?= base_url();?>">TALIKUAT</a></li>
 
           </ul>
         </nav><!-- .nav-menu -->
